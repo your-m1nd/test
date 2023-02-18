@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+    <html lang='ru'>
+    <title>Document</title>
+<body>
+    <form>
+        <h1>Опросник "Домашние питомцы"</h1>
+            <fieldset>
+                <legend>Имя</legend> 
+                <div>Кличка питомца
+            <input type="text" />
+            </div>
+            <div>Имя владельца
+                <input type="text" />
+            </div>
+            <div> Контакты владельца
+                <input type="text" />
+            </div> 
+            </fieldset>
+                <p>Выберите породу:</p>
+        <select>
+            <option value="first option">Абиссинская кошка</option>
+            <option value="second option">Сиамская кошка</option>
+            <option value="third option">Шотландская вислоухая кошка</option>
+        </select>
+        <p>Чем питается?</p>
+        <input type="checkbox" name="корм"/> <span>Сухой корм</span> <br>
+        <input type="checkbox" name="корм"/> <span>Влажный корм</span> <br>
+        <input type="checkbox" name="корм"/> <span>Натуральный корм</span> <br>
+        <p>Пол питомца?</p>
+        <input type="radio" name="пол" value="m"> <span>Мужской</span> <br>
+        <input type="radio" name="пол" value="f"> <span>Женский </span> <br>
+        <p>Комментарий владельца:</p>
+        <textarea rows="15" cols="15">Если хотите добавить что-то важное, можно написать здесь </textarea> <br>
+
+        <p>Можете добавить фотографию питомца:
+        <input type="submit" value="Выбор файла"> </p>
+    <button type="submit">Сохранить</button> <br>
+</form>
+    </body>
+</html>
